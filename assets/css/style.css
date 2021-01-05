@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background: #54555c;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+header{
+    border-bottom: 1px solid #fff;
+    color: #e2e7e0;
+    height: 65px;
+}
+header p{
+    margin: 0;
+    display: inline;
+    position: relative;
+    left: 110;
+    top: 30px;
+}
+
+header h1{
+    font-family: 'Monoton', cursive;
+    margin: 0;
+    position: fixed;
+    top: 5px;
+    left: 20px;
+}
+
+header p:hover{
+    color: #fff;
+}
+header ul{
+    list-style: none;
+    position: relative;
+}
+ul li{
+    position: absolute;
+    top: -10px;
+    right: 100px;
+}
+ul li:hover{
+    color: rgb(218, 212, 212);
+    cursor: pointer;
+}
+ul li:nth-of-type(1){
+    top: -10px;
+    right: 600px;
+}
+ul li:nth-of-type(2){
+    top: -10px;
+    right: 400px;
+}
+ul li:nth-of-type(3){
+    top: -10px;
+    right: 250px;
+}
+main section{
+    margin: 0;
+    position: relative;
+    top:300px;
+    left:200px;
+}
+main section h1{
+    margin: 0;
+    color: #b3b4b5;
+    font-size: 50px;
+}
+main section p{
+    color: #eff8f8;
+}
+main section p span{
+    padding-right: 10px;
+    letter-spacing: -2px;
+}
+div img{
+    height: 500px;
+    width: 250px;
+    position: fixed;
+}
+div img:nth-of-type(1){
+    right: 0;
+    top: 200px
+}
+div img:nth-of-type(2){
+    right: 300px;
+    top: 200px
+}
+div img:nth-of-type(3){
+    right: 600px;
+    top: 200px
+}
+article img{
+    height: 20px;
+    position: fixed;
+}
+article img:nth-of-type(1){
+    bottom: 30px;
+    left: 50px;
+}
+article img:nth-of-type(2){
+    bottom: 30px;
+    left: 100px;
+}
+article img:nth-of-type(3){
+    bottom: 30px;
+    left: 150px;
+}
+main section:nth-of-type(2){
+    position: relative;
+}
+main section:nth-of-type(2) p{
+    position: fixed;
+    margin: 0;
+    font-size: 20px;
+    color: #b3b4b5;
+    padding: 10px;
+    border: 1px solid #a27758;
+    border-radius: 50%;
+}
+main section:nth-of-type(2) p:first-child{
+    right: 250;
+    bottom: 150px;
+}
+main section:nth-of-type(2) p:last-child{
+    right: 200px;
+    bottom: 150px;
+}
